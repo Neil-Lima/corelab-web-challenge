@@ -16,6 +16,6 @@ async function bootstrap() {
   // Configuração de CORS
   app.enableCors(corsConfig);
   
-  await app.listen(3333);
+  await app.listen(3003);
 }
 bootstrap();
