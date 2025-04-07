@@ -1,9 +1,8 @@
-interface IButton {
-  onClick: () => void;
-  text: string;
-}
+/* eslint-disable prettier/prettier */
 
-const Button = (props: IButton) => {
+import { ButtonProps } from "../../types/ButtonTypes";
+
+const Button = (props: ButtonProps) => {
   return <button onClick={props.onClick}>{props.text}</button>;
 };
 
