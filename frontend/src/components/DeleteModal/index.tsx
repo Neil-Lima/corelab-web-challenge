@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 
-import './DeleteModalStyles.scss';
+import '../../styles/DeleteModalStyles.scss';
 import { DeleteModalProps } from '../../types/DeleteModalTypes';
 
 const DeleteModal: React.FC<DeleteModalProps> = ({ isOpen, title, onConfirm, onCancel }) => {
