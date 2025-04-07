@@ -10,7 +10,7 @@ const DeleteModal: React.FC<DeleteModalProps> = ({ isOpen, title, onConfirm, onC
     <div className="modal-overlay">
       <div className="modal-content">
         <h2>Confirmar exclusão</h2>
-        <p>Tem certeza que deseja excluir a tarefa "{title}"?</p>
+        <p>Tem certeza que deseja excluir a tarefa &ldquo;{title}&rdquo;?</p>
         <div className="modal-actions">
           <button className="cancel-button" onClick={onCancel}>
             Cancelar
@@ -24,4 +24,4 @@ const DeleteModal: React.FC<DeleteModalProps> = ({ isOpen, title, onConfirm, onC
   );
 };
 
-export default DeleteModal; 
+export default DeleteModal;
